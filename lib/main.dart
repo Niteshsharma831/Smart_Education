@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:peakpath/Dashboard.dart';
+import 'package:peakpath/LoginOptions.dart';
 import 'package:peakpath/RegistrationPage.dart';
 import 'package:peakpath/courses.dart';
 import 'package:peakpath/loginPage.dart';
@@ -15,8 +16,9 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: 'loginPage',
+      initialRoute: 'LoginOptions',
       routes: {
+        'LoginOptions': (context) => const LoginOptionScreen(),
         'loginPage': (context) => const LoginPageScreen(),
         'RegistrationPage': (context) => const RegistrationPageScreen(),
         'Dashboard': (context) => const DashboardScreen(),

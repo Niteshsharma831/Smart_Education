@@ -5,6 +5,22 @@ class CourseScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 13, 13, 79),
+        foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.person),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.search),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.menu),
+          )
+        ],
         title: Text('Courses'),
       ),
       body: Container(
@@ -40,12 +56,12 @@ class CourseScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            //   child: Image.asset(
-                            //     'assets/physics.jpg',
-                            //     fit: BoxFit.cover,
-                            //   ),
-                            // ),
+                            Expanded(
+                              child: Image.asset(
+                                'assets/physic.jpg',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
@@ -71,12 +87,12 @@ class CourseScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            //   child: Image.asset(
-                            //     'assets/engineering.jpg',
-                            //     fit: BoxFit.cover,
-                            //   ),
-                            // ),
+                            Expanded(
+                              child: Image.asset(
+                                'assets/engineering.png',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
@@ -102,12 +118,12 @@ class CourseScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            //   child: Image.asset(
-                            //     'assets/medical.jpg',
-                            //     fit: BoxFit.cover,
-                            //   ),
-                            // ),
+                            Expanded(
+                              child: Image.asset(
+                                'assets/medical.jpg',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
@@ -133,12 +149,12 @@ class CourseScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            //   child: Image.asset(
-                            //     'assets/biology.jpg',
-                            //     fit: BoxFit.cover,
-                            //   ),
-                            // ),
+                            Expanded(
+                              child: Image.asset(
+                                'assets/biology.jpg',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
@@ -164,12 +180,12 @@ class CourseScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            //   child: Image.asset(
-                            //     'assets/business.jpg',
-                            //     fit: BoxFit.cover,
-                            //   ),
-                            // ),
+                            Expanded(
+                              child: Image.asset(
+                                'assets/business.png',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
@@ -195,12 +211,12 @@ class CourseScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            //   child: Image.asset(
-                            //     'assets/mathematics.jpg',
-                            //     fit: BoxFit.cover,
-                            //   ),
-                            // ),
+                            Expanded(
+                              child: Image.asset(
+                                'assets/math.jpg',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(

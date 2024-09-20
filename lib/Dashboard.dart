@@ -133,7 +133,7 @@ class DashboardScreen extends StatelessWidget {
                   ),
                 ),
                 onPressed: () {
-                  // Navigator.pushNamed(context, "courses");
+                  Navigator.pushNamed(context, "courses");
                 },
                 child: Column(
                   children: [

@@ -9,7 +9,7 @@ class RegistrationPageScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 13, 13, 79),
         foregroundColor: Colors.white,
-        title: const Text("Register Now !!"),
+        title: const Text("Mentors Registration !!"),
       ),
       body: LayoutBuilder(
         builder: (context, constraints) {
@@ -84,6 +84,17 @@ class RegistrationPageScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 10),
+                    TextFormField(
+                      decoration: InputDecoration(
+                        labelText: "Qualifications",
+                        hintText: "Mention Your Degiree",
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        prefixIcon: Icon(Icons.book),
+                      ),
+                    ),
+                    const SizedBox(height: 20),
                     TextFormField(
                       decoration: InputDecoration(
                         labelText: "Address",
